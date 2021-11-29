@@ -14,8 +14,7 @@ import androidx.fragment.app.Fragment;
 import com.example.baitaplon.Bai_tap.lap_lai_cauhoi;
 
 public class bxh extends Fragment {
-    //hào lừa đảo
-    // hào bịp
+
     Trangchu trangchu;
     public bxh() {
         // Required empty public constructor
