@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/input_bg.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/khung.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/khung1.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/mau_do.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/thumb.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/track.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/drawable/vien_vang.xml" value="0.36944444444444446" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/activity_trac_nghiem_do_gia_dung.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/activity_trac_nghiem_dong_vat.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/activity_trac_nghiem_xe_co.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/baitap.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/bat_dau.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/bxh.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/cai_dat.xml" value="0.33" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/chon_hinh_anh.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/chon_nhan_vat.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/chucmung.xml" value="0.3569230769230769" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/chuoi_win.xml" value="0.22" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/fragment_dang_ky.xml" value="0.33" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/hoso.xml" value="0.33" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/item_hinh_anh.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/khetthuc.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/load_ding.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/login.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/luyen_tap.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/muc_tieu.xml" value="0.3578125" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/quen_mat_khau.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/quyen_rieng_tu.xml" value="0.33" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/thua.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/trac_nhiem_fruit.xml" value="0.3569230769230769" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/trangchu.xml" value="0.3569230769230769" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/layout/webview.xml" value="0.3625" />
+        <entry key="..\:/android/baitaplon/app/src/main/res/menu/item.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

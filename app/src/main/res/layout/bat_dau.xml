@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tai_khoan.bat_dau">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:src="@drawable/login"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giúp trẻ học được tiếng anh dễ dàng"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#4E4E4E"
+        android:textStyle="bold"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/d"/>
+    <android.widget.Button
+        android:id="@+id/bat_dau"
+        android:layout_width="match_parent"
+        android:background="@drawable/mau_do"
+        android:layout_height="50dp"
+        android:text="Bắt đầu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/a"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

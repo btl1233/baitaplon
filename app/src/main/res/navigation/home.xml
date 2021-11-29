@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/bat_dau">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.baitaplon.Tai_khoan.login"
+        android:label="login"
+        tools:layout="@layout/login" >
+        <action
+            android:id="@+id/action_login_to_dang_ky"
+            app:destination="@id/dang_ky"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_bat_dau"
+            app:destination="@id/bat_dau"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_quen_mat_khau"
+            app:destination="@id/quen_mat_khau"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/bat_dau"
+        android:name="com.example.baitaplon.Tai_khoan.bat_dau"
+        android:label="bat_dau"
+        tools:layout="@layout/bat_dau" >
+        <action
+            android:id="@+id/action_bat_dau_to_login"
+            app:destination="@id/login"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/bat_dau"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/dang_ky"
+        android:name="com.example.baitaplon.Tai_khoan.Dang_ky"
+        android:label="fragment_dang_ky"
+        tools:layout="@layout/fragment_dang_ky" >
+        <action
+            android:id="@+id/action_dang_ky_to_login"
+            app:destination="@id/login"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/dang_ky"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/quen_mat_khau"
+        android:name="com.example.baitaplon.Tai_khoan.Quen_mat_khau"
+        android:label="quen_mat_khau"
+        tools:layout="@layout/quen_mat_khau" >
+        <action
+            android:id="@+id/action_quen_mat_khau_to_login"
+            app:destination="@id/login"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/quen_mat_khau"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

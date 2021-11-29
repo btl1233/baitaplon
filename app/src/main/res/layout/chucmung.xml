@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C9FB94"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:text="Tuyện với"
+    android:textSize="30dp"
+    android:textColor="#67C801"
+    android:textStyle="bold"
+    android:fontFamily="@font/c"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <android.widget.Button
+        android:id="@+id/tieptuc"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bogoc"
+        android:layout_width="match_parent"
+        android:text="Tiếp tục"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+</LinearLayout>

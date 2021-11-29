@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trangchu"
+    app:startDestination="@id/baitap1234">
+
+    <fragment
+        android:id="@+id/baitap1234"
+        android:name="com.example.baitaplon.Bai_tap.baitap"
+        android:label="baitap"
+        tools:layout="@layout/baitap" >
+        <action
+            android:id="@+id/action_baitap1234_to_bxh1234"
+            app:destination="@id/bxh1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/baitap1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_baitap1234_to_hoso1234"
+            app:destination="@id/hoso1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/baitap1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_baitap1234_to_chon_nhan_vat"
+            app:destination="@id/chon_nhan_vat"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/zoom_out"
+            app:popUpTo="@id/baitap1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_baitap1234_to_luyen_tap2"
+            app:destination="@id/luyen_tap2"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/baitap1234"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/bxh1234"
+        android:name="com.example.baitaplon.bxh"
+        android:label="bxh"
+        tools:layout="@layout/bxh" >
+        <action
+            android:id="@+id/action_bxh1234_to_hoso1234"
+            app:destination="@id/hoso1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/bxh1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_bxh1234_to_baitap1234"
+            app:destination="@id/baitap1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/bxh1234"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/hoso1234"
+        android:name="com.example.baitaplon.cai_dat.hoso"
+        android:label="hoso"
+        tools:layout="@layout/hoso" >
+        <action
+            android:id="@+id/action_hoso1234_to_baitap1234"
+            app:destination="@id/baitap1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/hoso1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_hoso1234_to_bxh1234"
+            app:destination="@id/bxh1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/hoso1234"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_hoso1234_to_cai_dat2"
+            app:destination="@id/cai_dat2"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/hoso1234"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/cai_dat2"
+        android:name="com.example.baitaplon.cai_dat.Cai_dat"
+        android:label="cai_dat"
+        tools:layout="@layout/cai_dat" >
+        <action
+            android:id="@+id/action_cai_dat2_to_hoso1234"
+            app:destination="@id/hoso1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/cai_dat2"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_cai_dat2_to_muc_tieu"
+            app:destination="@id/muc_tieu"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/zoom_out"
+            app:popUpTo="@id/cai_dat2"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_cai_dat2_to_quyen_rieng_tu"
+            app:destination="@id/quyen_rieng_tu"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/cai_dat2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/muc_tieu"
+        android:name="com.example.baitaplon.cai_dat.Muc_tieu"
+        android:label="muc_tieu"
+        tools:layout="@layout/muc_tieu" >
+        <action
+            android:id="@+id/action_muc_tieu_to_baitap1234"
+            app:destination="@id/baitap1234"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/zoom_out"
+            app:popUpTo="@id/muc_tieu"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_muc_tieu_to_cai_dat22"
+            app:destination="@id/cai_dat2"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/muc_tieu"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chon_nhan_vat"
+        android:name="com.example.baitaplon.cai_dat.chon_nhan_vat"
+        android:label="chon_nhan_vat" >
+        <action
+            android:id="@+id/action_chon_nhan_vat_to_muc_tieu"
+            app:destination="@id/muc_tieu"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/chon_nhan_vat"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/quyen_rieng_tu"
+        android:name="com.example.baitaplon.cai_dat.Quyen_rieng_tu"
+        android:label="quyen_rieng_tu"
+        tools:layout="@layout/quyen_rieng_tu" >
+        <action
+            android:id="@+id/action_quyen_rieng_tu_to_cai_dat2"
+            app:destination="@id/cai_dat2"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/quyen_rieng_tu"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/luyen_tap2"
+        android:name="com.example.baitaplon.Bai_tap.Luyen_tap"
+        android:label="luyen_tap"
+        tools:layout="@layout/luyen_tap" >
+        <action
+            android:id="@+id/action_luyen_tap2_to_baitap1234"
+            app:destination="@id/baitap1234"
+            app:enterAnim="@anim/silde_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/luyen_tap2"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
