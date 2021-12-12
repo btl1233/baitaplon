@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CauHoi_CapDo3">
+    <TextView
+        android:id="@+id/tv_causo"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu 1 :"
+        android:textStyle="bold"
+        android:fontFamily="@font/a"
+        android:textColor="#3949AB"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Đây là gì?"
+        android:fontFamily="@font/c"
+        android:textColor="#3949AB"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/img_cauhoi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Nhập câu trả lời:"
+        android:fontFamily="@font/c"
+        android:textColor="#3949AB"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_cautraloi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bogoc_edittext"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <android.widget.Button
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kiemtra"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:fontFamily="@font/c"
+        android:textColor="@color/white"
+        android:background="@drawable/bogoc"
+        android:backgroundTint="#7BEA07"
+        android:textAllCaps="false"
+        android:text="Kiểm tra"/>
+
+
+</LinearLayout>

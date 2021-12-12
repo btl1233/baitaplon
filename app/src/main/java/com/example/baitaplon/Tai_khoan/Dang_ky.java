@@ -161,6 +161,7 @@ public class Dang_ky extends Fragment {
                     } else {
                         dialog.dismiss();
                         navigation.navigate(R.id.action_dang_ky_to_login);
+
                     }
                 }
             });
